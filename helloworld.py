@@ -17,5 +17,5 @@ def main():
     return 'Hello, world!'
 
 if __name__ == '__main__':  # Script executed directly?
-    print("Hello World! Built with a Docker file.")
+    print("Hello World! Built with a Docker file. - Testing source fetch on imagestream update")
     app.run(host="0.0.0.0", port=5000, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
